@@ -1,3 +1,7 @@
+import { googleKey } from "./utils.js";
+
+console.log(googleKey)
+
 // # map setup
 let map;
 
