@@ -3,7 +3,7 @@ let mapquestKey;
 
 console.log('pl')
 
-fetch("netlify/functions/api")
+fetch("https://arch-it.netlify.app/netlify/functions/api")
   .then(response => response.json())
   .then(json => {
     googleKey = json.googleApi;
