@@ -1,16 +1,25 @@
 let googleKey;
 let mapquestKey;
 
-console.log('pl')
-
-fetch("https://arch-it.netlify.app/netlify/functions/api")
+// # accesses API keys from Netflify environment variables
+fetch("/.netlify/functions/api")
   .then(response => response.json())
-  .then(json => {
-    googleKey = json.googleApi;
-    console.log('wut?')
-    console.log(googleKey)
-    mapquestKey = json.mapquestApi;
+  .then(({ googleApi, mapquestApi }) => {
+    googleKey = googleApi;
+    mapquestKey = mapquestApi;
   });
 
+// # building utilities
+// this function is only needed if the buildings data is updated and/or needs to be regeocoded
+const geocodeAddresses = async () => {
+  const addCoordinates = buildings.map(async (building) => {
+  const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=&location=${building.address}`);
+  const { results: [{ locations: [{ latLng: { lat, lng } }]}] } = await data.json();
+  return { ...building, lat, lng };
+});
 
-export { googleKey, mapquestKey };
+  const buildingsWithCoordinates = await Promise.all(addCoordinates);
+  console.log(buildingsWithCoordinates);
+}
+
+export { googleKey, mapquestKey, geocodeAddresses };
