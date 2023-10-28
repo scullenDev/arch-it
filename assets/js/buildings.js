@@ -773,7 +773,7 @@ const buildings = [
 // this function is only needed if the buildings data is updated and/or needs to be regeocoded
 const geocodeAddresses = async () => {
   const addCoordinates = buildings.map(async (building) => {
-  const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=PKgqKSoV6YCz06zWzzat9Oa113wHo7hq&location=${building.address}`);
+  const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=&location=${building.address}`);
   const { results: [{ locations: [{ latLng: { lat, lng } }]}] } = await data.json();
   return { ...building, lat, lng };
 });

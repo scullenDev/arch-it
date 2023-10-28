@@ -1,5 +1,4 @@
 // # map setup
-const api_key = "AIzaSyATuDuBZdyz-RaYX-8bOAGS7shGWRe4Amw";
 let map;
 
 async function initMap() {
