@@ -29,7 +29,7 @@ const populateCitySelect = (cities) => {
 // # updates map center and zooms in on city filter
 citySelect.addEventListener("change", function ({ target }) {
   const { lat, lng } = target.querySelector(':checked').dataset;
-  const filteredResults = filterResult(buildings, target.value);
+  const filteredResults = filterResults(buildings, target.value);
   displayResults(filteredResults);
   map.setCenter({ lat: +lat, lng: +lng });
   map.setZoom(11);
