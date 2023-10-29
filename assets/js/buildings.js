@@ -1,5 +1,7 @@
+import { geocodeLocations } from "./utils.js";
+
 // # building data
-export default [
+export const buildings = [
   {
     "buildingName": "Alfred I. duPont Building",
     "location": "Miami",

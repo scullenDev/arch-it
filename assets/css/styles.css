@@ -1,11 +1,18 @@
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  margin: 3rem auto;
+  width: 80%;
+}
+
 #map {
   margin: 0 auto;
   height: 95vh;
   width: 600px;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
 }
