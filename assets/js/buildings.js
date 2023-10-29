@@ -9,7 +9,7 @@ export default [
     "yearBuilt": "1937",
     "architect": "Marsh and Saxelbye",
     "wikiUrl": "https://en.wikipedia.org/wiki/Alfred_I._DuPont_Building",
-    "images": "Miami_Dupont.jpeg",
+    "images": "Miami_Dupont.jpg",
     "lat": 25.77421,
     "lng": -80.19063
   },
@@ -22,7 +22,7 @@ export default [
     "yearBuilt": "1967",
     "architect": "Roy Benjamin",
     "wikiUrl": "https://en.wikipedia.org/wiki/Alhambra_Dinner_Theatre",
-    "images": "Jacksonville_Alhambra.jpeg",
+    "images": "Jacksonville_Alhambra.jpg",
     "lat": 30.28629,
     "lng": -81.50182
   },
@@ -35,7 +35,7 @@ export default [
     "yearBuilt": "1930-1950",
     "architect": "L. Murray Dixon, Henry Hohauser, Albert Anis",
     "wikiUrl": "https://en.wikipedia.org/wiki/Miami_Beach_Architectural_District",
-    "images": "Miami_ArtDeco_1.jpeg,Miami_ArtDeco_2.jpeg",
+    "images": "Miami_ArtDeco_1.jpg,Miami_ArtDeco_2.jpg",
     "lat": 25.78044,
     "lng": -80.13062
   },
@@ -48,7 +48,7 @@ export default [
     "yearBuilt": "1964",
     "architect": "Russell Pancoast; Arata Isozaki",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bass_Museum",
-    "images": "Miami_Bass.jpeg",
+    "images": "Miami_Bass.jpg",
     "lat": 25.7974,
     "lng": -80.13023
   },
@@ -61,7 +61,7 @@ export default [
     "yearBuilt": "1926",
     "architect": "Schultze and Weaver",
     "wikiUrl": "https://en.wikipedia.org/wiki/Biltmore_Hotel",
-    "images": "CoralGables_Biltmore_1.jpeg,CoralGables_Biltmore_2.jpeg",
+    "images": "CoralGables_Biltmore_1.jpg,CoralGables_Biltmore_2.jpg",
     "lat": 25.74151,
     "lng": -80.27876
   },
@@ -74,7 +74,7 @@ export default [
     "yearBuilt": "1926",
     "architect": "Albert Anis",
     "wikiUrl": "https://en.m.wikipedia.org/wiki/File:Miami_Beach_-_South_Beach_Buildings_-_Edison_Hotel_on_Ocean_Drive.jpg",
-    "images": "Miami_Edison.jpeg",
+    "images": "Miami_Edison.jpg",
     "lat": 25.78018,
     "lng": -80.13068
   },
@@ -87,7 +87,7 @@ export default [
     "yearBuilt": "1929",
     "architect": "Milton B. Medary",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bok_Tower_Gardens",
-    "images": "LakeWales_BokTower_1.jpeg,LakeWales_BokTower_2.jpeg",
+    "images": "LakeWales_BokTower_1.jpg,LakeWales_BokTower_2.jpg",
     "lat": 27.91567,
     "lng": -81.56601
   },
@@ -100,7 +100,7 @@ export default [
     "yearBuilt": "1920",
     "architect": "Frederic Clay Bartlett",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bonnet_House",
-    "images": "FortLauderdale_Bonnett_1.jpeg,FortLauderdale_Bonnett_2.jpeg",
+    "images": "FortLauderdale_Bonnett_1.jpg,FortLauderdale_Bonnett_2.jpg",
     "lat": 26.136535,
     "lng": -80.105563
   },
@@ -113,7 +113,7 @@ export default [
     "yearBuilt": "1924",
     "architect": "Dwight James Baum",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ca%27_d%27Zan",
-    "images": "Sarasota_Cadzan_1.jpeg,Sarasota_Cadzan_2.jpeg",
+    "images": "Sarasota_Cadzan_1.jpg,Sarasota_Cadzan_2.jpg",
     "lat": 27.38094,
     "lng": -82.5598
   },
@@ -126,7 +126,7 @@ export default [
     "yearBuilt": "1933",
     "architect": "James Gamble Rogers II",
     "wikiUrl": "https://en.wikipedia.org/wiki/Robert_Bruce_Barbour_House",
-    "images": "WinterPark_CasaFeliz.jpeg",
+    "images": "WinterPark_CasaFeliz.jpg",
     "lat": 28.60303,
     "lng": -81.34954
   },
@@ -139,7 +139,7 @@ export default [
     "yearBuilt": "",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/St._Bernard_de_Clairvaux_Church",
-    "images": "Miami_Cloisters.jpeg",
+    "images": "Miami_Cloisters.jpg",
     "lat": 25.93059,
     "lng": -80.15526
   },
@@ -152,7 +152,7 @@ export default [
     "yearBuilt": "1924",
     "architect": "Richard Rummell",
     "wikiUrl": "https://en.wikipedia.org/wiki/Aladdin_Theater",
-    "images": "Cocoa_AladdinTheater.jpeg",
+    "images": "Cocoa_AladdinTheater.jpg",
     "lat": 28.35503,
     "lng": -80.72622
   },
@@ -165,7 +165,7 @@ export default [
     "yearBuilt": "1926",
     "architect": "Kiehnel and Elliott",
     "wikiUrl": "https://en.wikipedia.org/wiki/Coconut_Grove_Playhouse",
-    "images": "CoconutGrove_Playhouse.jpeg",
+    "images": "CoconutGrove_Playhouse.jpg",
     "lat": 25.72599,
     "lng": -80.24447
   },
@@ -178,7 +178,7 @@ export default [
     "yearBuilt": "1923",
     "architect": "Edward Leedskalnin",
     "wikiUrl": "https://en.wikipedia.org/wiki/Coral_Castle",
-    "images": "Homestead_CoralCastle_1.jpeg,Homestead_CoralCastle_2.jpeg",
+    "images": "Homestead_CoralCastle_1.jpg,Homestead_CoralCastle_2.jpg",
     "lat": 25.50043,
     "lng": -80.4447
   },
@@ -191,7 +191,7 @@ export default [
     "yearBuilt": "1928",
     "architect": "Phineas Paist and Harold Steward",
     "wikiUrl": "https://en.wikipedia.org/wiki/Coral_Gables_City_Hall",
-    "images": "Coral_Gables_CityHall.jpeg",
+    "images": "CoralGables_CityHall.jpg",
     "lat": 25.74904,
     "lng": -80.26448
   },
@@ -204,7 +204,7 @@ export default [
     "yearBuilt": "1985",
     "architect": "Skidmore, Owings & Merrill",
     "wikiUrl": "https://en.wikipedia.org/wiki/Lawson_Thomas",
-    "images": "Miami_CourthouseTower.jpeg",
+    "images": "Miami_CourthouseTower.jpg",
     "lat": 25.77582,
     "lng": -80.19528
   },
@@ -217,7 +217,7 @@ export default [
     "yearBuilt": "2008",
     "architect": "KBJ Architects",
     "wikiUrl": "https://www.flagler.edu/information-for/community-members/arts--culture/crisp-ellert-art-museum/",
-    "images": "",
+    "images": null,
     "lat": 29.89281,
     "lng": -81.316
   },
@@ -230,7 +230,7 @@ export default [
     "yearBuilt": "1925",
     "architect": "Martin L. Hampton",
     "wikiUrl": "https://en.wikipedia.org/wiki/Glenn_Curtiss_Mansion",
-    "images": "MiamiSprings_Curtiss.jpeg",
+    "images": "MiamiSprings_Curtiss.jpg",
     "lat": 25.81051,
     "lng": -80.28229
   },
@@ -243,7 +243,7 @@ export default [
     "yearBuilt": "1948",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/De_Soto_National_Memorial",
-    "images": "Bradenton_DeSoto.jpeg",
+    "images": "Bradenton_DeSoto.jpg",
     "lat": 27.52165,
     "lng": -82.64458
   },
@@ -256,7 +256,7 @@ export default [
     "yearBuilt": "1916",
     "architect": "Charles Deering",
     "wikiUrl": "https://en.wikipedia.org/wiki/Charles_Deering_Estate",
-    "images": "",
+    "images": null,
     "lat": 25.61552,
     "lng": -80.30841
   },
@@ -269,7 +269,7 @@ export default [
     "yearBuilt": "1893",
     "architect": "George Franklin Barber",
     "wikiUrl": "https://en.wikipedia.org/wiki/Donnelly_House_(Mount_Dora,_Florida)",
-    "images": "MtDora_Donnelly.jpeg",
+    "images": "MtDora_Donnelly.jpg",
     "lat": 28.80101,
     "lng": -81.64471
   },
@@ -282,7 +282,7 @@ export default [
     "yearBuilt": "1885",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/Edison_and_Ford_Winter_Estates",
-    "images": "FortMyers_EdisonFord_1.jpeg,FortMyers_EdisonFord_2.jpeg",
+    "images": "FortMyers_EdisonFord_1.jpg,FortMyers_EdisonFord_2.jpg",
     "lat": 26.63402,
     "lng": -81.88018
   },
@@ -295,7 +295,7 @@ export default [
     "yearBuilt": "1938",
     "architect": "Frank Lloyd Wright",
     "wikiUrl": "https://en.wikipedia.org/wiki/Florida_Southern_College",
-    "images": "Lakeland_FloridaSouthernCollege_1.jpeg,Lakeland_FloridaSouthernCollege_2.jpeg",
+    "images": "Lakeland_FloridaSouthernCollege_1.jpg,Lakeland_FloridaSouthernCollege_2.jpg",
     "lat": 28.02981,
     "lng": -81.94394
   },
@@ -308,7 +308,7 @@ export default [
     "yearBuilt": "1954",
     "architect": "Morris Lapidus",
     "wikiUrl": "https://en.wikipedia.org/wiki/Fontainebleau_Miami_Beach",
-    "images": "Miami_Fontainebleau.jpeg",
+    "images": "Miami_Fontainebleau.jpg",
     "lat": 25.81797,
     "lng": -80.12275
   },
@@ -321,7 +321,7 @@ export default [
     "yearBuilt": "1925",
     "architect": "George A. Fuller Co.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Freedom_Tower_(Miami)",
-    "images": "Miami_FreedomeTower.jpeg",
+    "images": "Miami_FreedomTower.jpg",
     "lat": 25.78006,
     "lng": -80.1897
   },
@@ -334,7 +334,7 @@ export default [
     "yearBuilt": "1860",
     "architect": "George Gordon Meade Morris",
     "wikiUrl": "https://en.wikipedia.org/wiki/Jupiter_Inlet_Light#Jupiter_Inlet_Lighthouse_and_Museum",
-    "images": "Jupiter_Lighthouse.jpeg",
+    "images": "Jupiter_Lighthouse.jpg",
     "lat": 26.94852,
     "lng": -80.08453
   },
@@ -347,7 +347,7 @@ export default [
     "yearBuilt": "1894",
     "architect": "Cyrus Teed",
     "wikiUrl": "https://en.wikipedia.org/wiki/Koreshan_State_Historic_Site",
-    "images": "Estero_Koreshan.jpeg",
+    "images": "Estero_Koreshan.jpg",
     "lat": 26.43118,
     "lng": -81.81081
   },
@@ -360,7 +360,7 @@ export default [
     "yearBuilt": "1887",
     "architect": "Carrère and Hastings",
     "wikiUrl": "https://en.wikipedia.org/wiki/Lightner_Museum",
-    "images": "StAugustine_LightnerMuseum.jpeg",
+    "images": "StAugustine_LightnerMuseum.jpg",
     "lat": 29.89213,
     "lng": -81.31427
   },
@@ -373,7 +373,7 @@ export default [
     "yearBuilt": "1890",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/Little_White_House",
-    "images": "KeyWest_LittleWhiteHouse.jpeg",
+    "images": "KeyWest_LittleWhiteHouse.jpg",
     "lat": 24.55634,
     "lng": -81.80656
   },
@@ -386,7 +386,7 @@ export default [
     "yearBuilt": "1927",
     "architect": "Joseph Urban",
     "wikiUrl": "https://en.wikipedia.org/wiki/Mar-a-Lago",
-    "images": "PalmBeach_Maralago.jpeg",
+    "images": "PalmBeach_Maralago.jpg",
     "lat": 26.67608,
     "lng": -80.03765
   },
@@ -399,7 +399,7 @@ export default [
     "yearBuilt": "1905",
     "architect": "Richard Kiehnel",
     "wikiUrl": "https://en.wikipedia.org/wiki/Coral_Gables_House",
-    "images": "CoralGables_MerrickHouse.jpeg",
+    "images": "CoralGables_MerrickHouse.jpg",
     "lat": 25.74887,
     "lng": -80.27326
   },
@@ -412,7 +412,7 @@ export default [
     "yearBuilt": "1934",
     "architect": "William Delano and Charles Aldrich",
     "wikiUrl": "https://en.wikipedia.org/wiki/Miami_City_Hall",
-    "images": "Miami_CityHall.jpeg",
+    "images": "Miami_CityHall.jpg",
     "lat": 25.72787,
     "lng": -80.23412
   },
@@ -425,7 +425,7 @@ export default [
     "yearBuilt": "1963",
     "architect": "Hilario Candela",
     "wikiUrl": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
-    "images": "Miami_MarineStadium.jpeg",
+    "images": "Miami_MarineStadium.jpg",
     "lat": 25.74162,
     "lng": -80.1711
   },
@@ -438,7 +438,7 @@ export default [
     "yearBuilt": "1987",
     "architect": "I.M. Pei",
     "wikiUrl": "https://en.wikipedia.org/wiki/Miami_Tower",
-    "images": "Miami_MiamiTower_1.jpeg,Miami_MiamiTower_2.jpeg",
+    "images": "Miami_MiamiTower_1.jpg,Miami_MiamiTower_2.jpg",
     "lat": 25.77258,
     "lng": -80.19118
   },
@@ -451,7 +451,7 @@ export default [
     "yearBuilt": "1928",
     "architect": "Unknown",
     "wikiUrl": "https://militaryheritagemuseum.org/",
-    "images": "",
+    "images": null,
     "lat": 26.92867,
     "lng": -82.05934
   },
@@ -464,7 +464,7 @@ export default [
     "yearBuilt": "1946",
     "architect": "Sam Moltzahn",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ormond_Memorial_Art_Museum_and_Gardens",
-    "images": "",
+    "images": null,
     "lat": 29.28994,
     "lng": -81.04509
   },
@@ -477,7 +477,7 @@ export default [
     "yearBuilt": "1750",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/St._Augustine_Town_Plan_Historic_District#/media/File:Pena-Peck_House.jpg",
-    "images": "StAugustine_PenaPeck.jpeg",
+    "images": "StAugustine_PenaPeck.jpg",
     "lat": 29.89345,
     "lng": -81.31283
   },
@@ -490,7 +490,7 @@ export default [
     "yearBuilt": "2013",
     "architect": "Herzog & de Meuron",
     "wikiUrl": "https://en.wikipedia.org/wiki/P%C3%A9rez_Art_Museum_Miami",
-    "images": "Miami_Perez.jpeg",
+    "images": "Miami_Perez.jpg",
     "lat": 25.78487,
     "lng": -80.18921
   },
@@ -503,7 +503,7 @@ export default [
     "yearBuilt": "1887",
     "architect": "Francis Hopkinson Smith",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ponce_de_Leon_Inlet_Light",
-    "images": "PonceInlet_PonceLighthouse.jpeg",
+    "images": "PonceInlet_PonceLighthouse.jpg",
     "lat": 29.08097,
     "lng": -80.92849
   },
@@ -516,7 +516,7 @@ export default [
     "yearBuilt": "1916",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/Porcher_House",
-    "images": "Cocoa_Porcher.jpeg",
+    "images": "Cocoa_Porcher.jpg",
     "lat": 28.35377,
     "lng": -80.72534
   },
@@ -529,7 +529,7 @@ export default [
     "yearBuilt": "1921",
     "architect": "Unknown",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ransom_School_%22Pagoda%22",
-    "images": "",
+    "images": null,
     "lat": 25.72327,
     "lng": -80.24528
   },
@@ -542,7 +542,7 @@ export default [
     "yearBuilt": "1927",
     "architect": "John H. Phillips",
     "wikiUrl": "https://en.wikipedia.org/wiki/John_and_Mable_Ringling_Museum_of_Art",
-    "images": "Sarasota_Ringling_1.jpeg,Sarasota_Ringling_2.jpeg",
+    "images": "Sarasota_Ringling_1.jpg,Sarasota_Ringling_2.jpg",
     "lat": 27.38094,
     "lng": -82.5598
   },
@@ -555,7 +555,7 @@ export default [
     "yearBuilt": "1967",
     "architect": "Anthony J. DePace",
     "wikiUrl": "https://smdmcc.org/",
-    "images": "Flagler_SantaMaria.jpeg",
+    "images": "Flagler_SantaMariaChurch.jpg",
     "lat": 29.48622,
     "lng": -81.13145
   },
@@ -568,7 +568,7 @@ export default [
     "yearBuilt": "2004",
     "architect": "Klai Juba Wald Architects",
     "wikiUrl": "https://en.wikipedia.org/wiki/Seminole_Hard_Rock_Hotel_%26_Casino_Hollywood",
-    "images": "Hollywood_SeminoleHardRock_1.jpeg,Hollywood_SeminoleHardRock_2.jpeg",
+    "images": "Hollywood_SeminoleHardRock_1.jpg,Hollywood_SeminoleHardRock_2.jpg",
     "lat": 26.051,
     "lng": -80.210599
   },
@@ -581,7 +581,7 @@ export default [
     "yearBuilt": "1926",
     "architect": "Samuel Ogren Sr.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Spady_Cultural_Heritage_Museum",
-    "images": "Delray_Spady.jpeg",
+    "images": "Delray_Spady.jpg",
     "lat": 26.46474,
     "lng": -80.07851
   },
@@ -594,7 +594,7 @@ export default [
     "yearBuilt": "1874",
     "architect": "Paul J. Pelz",
     "wikiUrl": "https://en.wikipedia.org/wiki/St._Augustine_Light",
-    "images": "StAugustine_Lighthouse.jpeg",
+    "images": "StAugustine_Lighthouse.jpg",
     "lat": 29.88648,
     "lng": -81.28774
   },
@@ -607,7 +607,7 @@ export default [
     "yearBuilt": "16th century",
     "architect": "N/A",
     "wikiUrl": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
-    "images": "StAugustine_StGeorgeStreet.jpeg",
+    "images": "StAugustine_StGeorgeStreet.jpg",
     "lat": 29.897789,
     "lng": -81.313597
   },
@@ -620,7 +620,7 @@ export default [
     "yearBuilt": "1886",
     "architect": "George T. Pearson",
     "wikiUrl": "https://en.wikipedia.org/wiki/John_B._Stetson_House",
-    "images": "Deland_StetsonMansion.jpeg",
+    "images": "Deland_StetsonMansion.jpg",
     "lat": 29.02278,
     "lng": -81.32302
   },
@@ -633,7 +633,7 @@ export default [
     "yearBuilt": "1933",
     "architect": "N/A",
     "wikiUrl": "https://en.wikipedia.org/wiki/Stiltsville",
-    "images": "Miami_Stiltsville_1.jpeg,Miami_Stiltsville_2.jpeg",
+    "images": "Miami_Stiltsville_1.jpg,Miami_Stiltsville_2.jpg",
     "lat": 25.70441,
     "lng": -80.15928
   },
@@ -646,7 +646,7 @@ export default [
     "yearBuilt": "1903",
     "architect": "George Turner Sr.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Sunken_Gardens_(Florida)",
-    "images": "StPetersburg_SunkenGardens.jpeg",
+    "images": "StPetersburg_SunkenGardens.jpg",
     "lat": 27.78949,
     "lng": -82.63838
   },
@@ -659,7 +659,7 @@ export default [
     "yearBuilt": "1891",
     "architect": "J.A. Wood",
     "wikiUrl": "https://en.wikipedia.org/wiki/Henry_B._Plant_Museum",
-    "images": "Tampa_TampaBayHotel_1.jpeg,Tamp_TampaBayHotel.jpeg",
+    "images": "Tampa_TampaBayHotel_1.jpg,Tamp_TampaBayHotel.jpg",
     "lat": 27.94541,
     "lng": -82.46341
   },
@@ -672,7 +672,7 @@ export default [
     "yearBuilt": "2010",
     "architect": "Stanley Saitowitz",
     "wikiUrl": "https://en.wikipedia.org/wiki/Tampa_Museum_of_Art",
-    "images": "Tampa_MuseumofArt.jpeg",
+    "images": "Tampa_MuseumofArt.jpg",
     "lat": 27.94966,
     "lng": -82.46277
   },
@@ -685,7 +685,7 @@ export default [
     "yearBuilt": "1926",
     "architect": "Schultze and Weaver",
     "wikiUrl": "https://en.wikipedia.org/wiki/The_Breakers_(hotel)",
-    "images": "PalmBeach_TheBreakers.jpeg",
+    "images": "PalmBeach_TheBreakers.jpg",
     "lat": 26.71478,
     "lng": -80.03465
   },
@@ -698,7 +698,7 @@ export default [
     "yearBuilt": "Ongoing",
     "architect": "Reynolds, Smith & Hills and Edward Durell Stone",
     "wikiUrl": "https://en.wikipedia.org/wiki/Florida_State_Capitol",
-    "images": "Tallahassee_FloridaStateCapitol_1.jpeg,Tallahassee_Florida_State_Capitol_2.jpeg",
+    "images": "Tallahassee_FloridaStateCapitol_1.jpg,Tallahassee_Florida_State_Capitol_2.jpg",
     "lat": 30.43875,
     "lng": -84.28066
   },
@@ -711,7 +711,7 @@ export default [
     "yearBuilt": "2011",
     "architect": "Yann Weymouth",
     "wikiUrl": "https://en.wikipedia.org/wiki/Dali_Museum",
-    "images": "StPetersburg_Dali_1.jpeg,StPetersburg_Dali_2.jpeg,StPetersburg_Dali_3.jpeg",
+    "images": "StPetersburg_Dali_1.jpg,StPetersburg_Dali_2.jpg,StPetersburg_Dali_3.jpg",
     "lat": 27.770902,
     "lng": -82.632852
   },
@@ -724,7 +724,7 @@ export default [
     "yearBuilt": "2018",
     "architect": "St. Petersburg Design Group",
     "wikiUrl": "https://en.wikipedia.org/wiki/James_Museum_of_Western_and_Wildlife_Art",
-    "images": "",
+    "images": null,
     "lat": 27.77122,
     "lng": -82.63473
   },
@@ -737,7 +737,7 @@ export default [
     "yearBuilt": "1916",
     "architect": "F. Burrall Hoffman",
     "wikiUrl": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens",
-    "images": "Miami_Vizcaya.jpeg",
+    "images": "Miami_Vizcaya.jpg",
     "lat": 25.74443,
     "lng": -80.21113
   },
@@ -750,7 +750,7 @@ export default [
     "yearBuilt": "2014",
     "architect": "Frank Gehry",
     "wikiUrl": "https://en.wikipedia.org/wiki/Dr._Phillips_Center_for_the_Performing_Arts",
-    "images": "Orlando_WaltDisneyConcertHall.jpeg",
+    "images": "Orlando_WaltDisneyConcertHall.jpg",
     "lat": 28.53748,
     "lng": -81.37739
   },
@@ -763,7 +763,7 @@ export default [
     "yearBuilt": "2009",
     "architect": "Various Street Artists",
     "wikiUrl": "https://en.wikipedia.org/wiki/Wynwood",
-    "images": "Miami_WynwoodWalls.jpeg",
+    "images": "Miami_WynwoodWalls.jpg",
     "lat": 25.80106,
     "lng": -80.19909
   }
