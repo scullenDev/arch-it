@@ -1,5 +1,5 @@
 import { initMap, map } from "./mapUtils.js";
-import { geocodeLocations } from "./utils.js";
+import { displayResults, geocodeLocations } from "./utils.js";
 import { buildings } from "./buildings.js";
 
 // # globals
@@ -9,7 +9,6 @@ const citySelect = document.getElementById("cities");
 const cities = buildings.reduce((accum, { location: city }) => [...accum, city], []);
 const uniqueCities = [...new Set(cities)].sort()
 const uniqueCityObjects = uniqueCities.map(city => ({ city }));
-console.log("uniques?", uniqueCityObjects)
 
 // # ...then geocoding them
 geocodeLocations(uniqueCityObjects, "city")
@@ -35,6 +34,8 @@ citySelect.addEventListener("change", function ({ target }) {
 });
 
 initMap();
+
+displayResults(buildings);
 
 
 

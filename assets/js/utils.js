@@ -1,6 +1,9 @@
 let googleKey;
 let mapquestKey;
 
+// # globals
+const resultsSection = document.getElementById("results");
+
 // # accesses API keys from Netflify environment variables
 fetch("/.netlify/functions/api")
   .then(response => response.json())
@@ -9,8 +12,25 @@ fetch("/.netlify/functions/api")
     mapquestKey = mapquestApi;
   });
 
-// # building utilities
-// this function is only needed if the buildings data is updated and/or needs to be regeocoded
+
+// # displays results
+const displayResults = (arr) => {
+  let html = ``;
+
+  arr.forEach(({ buildingName, address }, i) => {
+    html += `
+      <li>
+        <h2>${buildingName}</h2>
+        <p>${address}</p>
+      </li>
+    `
+  });
+
+  resultsSection.innerHTML = html;
+}  
+
+// # geocoding utilities
+// this function was used to geocode the the city and building list; it is additionally needed if the buildings data is updated and/or needs to be regeocoded
 const geocodeLocations = async (arr, addressKey) => {
   const addCoordinates = arr.map(async (obj) => {
     const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=PKgqKSoV6YCz06zWzzat9Oa113wHo7hq&location=${obj[addressKey]}`);
@@ -22,15 +42,4 @@ const geocodeLocations = async (arr, addressKey) => {
   return geocodedLocations;
 }
 
-// const geocodeAddresses = async () => {
-//   const addCoordinates = buildings.map(async (building) => {
-//   const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=&location=${building.address}`);
-//   const { results: [{ locations: [{ latLng: { lat, lng } }]}] } = await data.json();
-//   return { ...building, lat, lng };
-// });
-
-//   const buildingsWithCoordinates = await Promise.all(addCoordinates);
-//   console.log(buildingsWithCoordinates);
-// }
-
-export { googleKey, mapquestKey, geocodeLocations };
+export { googleKey, mapquestKey, displayResults, geocodeLocations };
