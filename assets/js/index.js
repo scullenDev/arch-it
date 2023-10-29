@@ -1,5 +1,5 @@
 import { initMap, map } from "./mapUtils.js";
-import { displayResults, geocodeLocations } from "./utils.js";
+import { displayResults, filterResults, geocodeLocations } from "./utils.js";
 import { buildings } from "./buildings.js";
 
 // # globals
@@ -7,7 +7,7 @@ const citySelect = document.getElementById("cities");
 
 // # generating list of unique cities
 const cities = buildings.reduce((accum, { location: city }) => [...accum, city], []);
-const uniqueCities = [...new Set(cities)].sort()
+const uniqueCities = [...new Set(cities)].sort();
 const uniqueCityObjects = uniqueCities.map(city => ({ city }));
 
 // # ...then geocoding them
@@ -29,6 +29,8 @@ const populateCitySelect = (cities) => {
 // # updates map center and zooms in on city filter
 citySelect.addEventListener("change", function ({ target }) {
   const { lat, lng } = target.querySelector(':checked').dataset;
+  const filteredResults = filterResult(buildings, target.value);
+  displayResults(filteredResults);
   map.setCenter({ lat: +lat, lng: +lng });
   map.setZoom(11);
 });

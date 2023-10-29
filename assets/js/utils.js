@@ -29,6 +29,10 @@ const displayResults = (arr) => {
   resultsSection.innerHTML = html;
 }  
 
+const filterResults = (results, city) => {
+  return results.filter(({ location }) => location === city)
+}
+
 // # geocoding utilities
 // this function was used to geocode the the city and building list; it is additionally needed if the buildings data is updated and/or needs to be regeocoded
 const geocodeLocations = async (arr, addressKey) => {
@@ -42,4 +46,4 @@ const geocodeLocations = async (arr, addressKey) => {
   return geocodedLocations;
 }
 
-export { googleKey, mapquestKey, displayResults, geocodeLocations };
+export { googleKey, mapquestKey, displayResults, filterResults, geocodeLocations };
