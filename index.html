@@ -4,19 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ARCH-IT - Explore Architecture Near You</title>
+  <title>ARCH - IT: Explore Architecture Near You</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <link href="./assets/css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
+  <header>
+    <img src="./assets/images/logo.png" alt="ARCH - IT" />
+    <h1>ARCH - IT</h1>
+    <h2>Click on a pin on the map to view the building:</h2>
+  </header>
   <section class="wrapper">
     <section>
       <form>
         <select id="cities">
-          <option selected>-- select city to filter locations --</option>
+          <option selected>-- select city to filter buildings --</option>
         </select>
       </form>
-      <ol id="results"></ol>
+      <ul id="buildings"></ul>
     </section>
     <section id="map"></section>
   </section>

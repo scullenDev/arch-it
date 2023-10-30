@@ -1,43 +1,36 @@
-let googleKey;
-let mapquestKey;
-
 // # globals
-const resultsSection = document.getElementById("results");
+const buildingsSection = document.getElementById("buildings");
 
-// # accesses API keys from Netflify environment variables
-fetch("/.netlify/functions/api")
-  .then(response => response.json())
-  .then(({ googleApi, mapquestApi }) => {
-    googleKey = googleApi;
-    mapquestKey = mapquestApi;
-  });
-
-
-// # displays results
-const displayResults = (arr) => {
+// # displays buildings
+const displayBuildings = (buildings) => {
   let html = ``;
 
-  arr.forEach(({ buildingName, address }, i) => {
+  for (const { buildingName, address, wikiUrl } of buildings) {
     html += `
       <li>
-        <h2>${buildingName}</h2>
+        <h3><a href="${wikiUrl}" target="_blank">${buildingName}</a></h3>
         <p>${address}</p>
       </li>
     `
-  });
+  };
 
-  resultsSection.innerHTML = html;
+  buildingsSection.innerHTML = html;
 }  
 
-const filterResults = (results, city) => {
-  return results.filter(({ location }) => location === city)
+// # filters array of passed-in buildings to only include buildings with a matching city (used in the buildings data to represent the city)
+const filterBuildings = (buildings, city) => {
+  return buildings.filter(({ location }) => location.toLowerCase() === city.toLowerCase())
 }
 
 // # geocoding utilities
 // this function was used to geocode the the city and building list; it is additionally needed if the buildings data is updated and/or needs to be regeocoded
 const geocodeLocations = async (arr, addressKey) => {
   const addCoordinates = arr.map(async (obj) => {
-    const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=PKgqKSoV6YCz06zWzzat9Oa113wHo7hq&location=${obj[addressKey]}`);
+    const address = addressKey !== "city"
+      ? obj[addressKey]
+      : `${obj[addressKey]}, FL`;
+    
+    const data = await fetch(`https://www.mapquestapi.com/geocoding/v1/address?key=PKgqKSoV6YCz06zWzzat9Oa113wHo7hq&location=${address}`);
     const { results: [{ locations: [{ latLng: { lat, lng } }] }] } = await data.json();
     return { ...obj, lat, lng };
   });
@@ -46,4 +39,4 @@ const geocodeLocations = async (arr, addressKey) => {
   return geocodedLocations;
 }
 
-export { googleKey, mapquestKey, displayResults, filterResults, geocodeLocations };
+export { displayBuildings, filterBuildings, geocodeLocations };

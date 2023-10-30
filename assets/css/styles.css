@@ -1,18 +1,70 @@
 html,
 body {
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+body {
+  background: #E0E0E0;
+}
+
+header {
+  margin: .5rem auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #81B2CB;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #81B2CB;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .wrapper {
   display: flex;
-  margin: 3rem auto;
+  margin: 1.5rem auto 2.5rem;
   width: 80%;
+}
+
+.wrapper > section:first-child {
+  height: 90vh;
+  margin-right: 2rem;
+  overflow: scroll;
+}
+
+select {
+  padding: .25rem;
+}
+
+#buildings {
+  padding-left: 0;
+}
+
+#buildings li {
+  list-style: none;
+  border-bottom: 1px dashed #b3b3b3;
+  padding-left: .5rem;
 }
 
 #map {
   margin: 0 auto;
-  height: 95vh;
-  width: 600px;
+  height: 90vh;
+  width: 700px;
+}
+
+.info-window img {
+  max-width: 300px;
 }

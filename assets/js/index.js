@@ -1,5 +1,5 @@
 import { initMap, map } from "./mapUtils.js";
-import { displayResults, filterResults, geocodeLocations } from "./utils.js";
+import { displayBuildings, filterBuildings, geocodeLocations } from "./utils.js";
 import { buildings } from "./buildings.js";
 
 // # globals
@@ -17,7 +17,10 @@ geocodeLocations(uniqueCityObjects, "city")
 
 // # populates city dropdown with list of unique cities
 const populateCitySelect = (cities) => {
-  let html = `<option selected value="">-- select city to filter locations --</option>`;
+  let html = `
+    <option selected value="">-- select city to filter buildings --</option>
+    <option value="">View all buildings</option>
+  `;
 
   for (const { city, lat, lng } of cities) {
     html += `<option value="${city}" data-lat="${lat}" data-lng="${lng}">${city}</option>`;
@@ -28,16 +31,19 @@ const populateCitySelect = (cities) => {
 
 // # updates map center and zooms in on city filter
 citySelect.addEventListener("change", function ({ target }) {
+  // # if no city name is select, display all buildings
+  if (!target.value) return displayBuildings(buildings);
+
   const { lat, lng } = target.querySelector(':checked').dataset;
-  const filteredResults = filterResults(buildings, target.value);
-  displayResults(filteredResults);
+  const filteredBuildings = filterBuildings(buildings, target.value);
+  displayBuildings(filteredBuildings);
   map.setCenter({ lat: +lat, lng: +lng });
   map.setZoom(11);
 });
 
 initMap();
 
-displayResults(buildings);
+displayBuildings(buildings);
 
 
 

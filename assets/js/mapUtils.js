@@ -16,16 +16,18 @@ export const initMap = async () => {
   generateMarkers(buildings);
 }
 
-const generateMarkers = (filteredBuildings) => {
-    filteredBuildings.forEach(({ lat, lng, buildingName, address, images }, i) => {
+const generateMarkers = (buildings) => {
+  for (let { lat, lng, buildingName, address, images, wikiUrl } of buildings) {
     images = images
       ? images.split(",")
       : [];
 
     const content = `
-      <h3><a href="#">${buildingName}</a></h3>
-      <p>${address}</p>
-      ${images.length ? `<img src="./assets/photos/${images[0]}" alt="${buildingName}" />` : ""}
+      <article class="info-window">
+        <h3><a href="${wikiUrl}" target="_blank">${buildingName}</a></h3>
+        <p>${address}</p>
+        ${images.length ? `<img src="./assets/photos/${images[0]}" alt="${buildingName}" />` : ""}
+      </article>
     `;
 
     const infoWindow = new google.maps.InfoWindow({
@@ -35,7 +37,6 @@ const generateMarkers = (filteredBuildings) => {
 
     const marker = new google.maps.Marker({
       position: { lat, lng },
-      label: (i + 1).toString(),
       map: map,
     });
 
@@ -48,5 +49,5 @@ const generateMarkers = (filteredBuildings) => {
         map,
       });
     });
-  })
+  }
 }

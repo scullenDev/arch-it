@@ -30,7 +30,7 @@ export const buildings = [
   },
   {
     "buildingName": "Art Deco Historic District",
-    "location": "Miami",
+    "location": "Miami Beach",
     "address": "1001 Ocean Dr, Miami Beach, FL 33139",
     "architecturalStyle": "Art Deco",
     "notableFeatures": "White and pastel-colored stucco buildings in South Beach",
@@ -69,7 +69,7 @@ export const buildings = [
   },
   {
     "buildingName": "Edison Hotel",
-    "location": "Miami",
+    "location": "Miami Beach",
     "address": "960 Ocean Dr, Miami Beach, FL 33139",
     "architecturalStyle": "Mediterranean Revival",
     "notableFeatures": "Historic hotel, Spanish-style architecture",
@@ -134,7 +134,7 @@ export const buildings = [
   },
   {
     "buildingName": "Cloisters of the Monastery of Saint Bernard de Clairvaux (\"Ancient Spanish Monastery\")",
-    "location": "Miami",
+    "location": "North Miami Beach",
     "address": "16711 W Dixie Hwy, North Miami Beach, FL 33160",
     "architecturalStyle": "Cistercian Romanesque",
     "notableFeatures": "Originally built in Sacramenia in Segovia, Spain",
@@ -160,7 +160,7 @@ export const buildings = [
   },
   {
     "buildingName": "Coconut Grove Playhouse",
-    "location": "Coconut Grove",
+    "location": "Miami",
     "address": "3500 Main Hwy, Miami, FL 33133",
     "architecturalStyle": "Mediterranean Revival",
     "notableFeatures": "Historic theater with distinctive architecture",
@@ -251,7 +251,7 @@ export const buildings = [
   },
   {
     "buildingName": "Deering Estate at Cutler",
-    "location": "Palmetto Bay",
+    "location": "Miami",
     "address": "16701 SW 72nd Ave, Miami, FL 33157",
     "architecturalStyle": "Mediterranean Revival",
     "notableFeatures": "Historic mansion with bayfront location",
@@ -264,7 +264,7 @@ export const buildings = [
   },
   {
     "buildingName": "Donnelly House",
-    "location": "Mt Dora",
+    "location": "Mount Dora",
     "address": "535 N Donnelly St, Mount Dora, FL 32757",
     "architecturalStyle": "Queen Anne",
     "notableFeatures": "Historic home built for prominent real estate family",
@@ -524,7 +524,7 @@ export const buildings = [
   },
   {
     "buildingName": "Ransom School House Museum \"The Pagoda\"",
-    "location": "Dania Beach",
+    "location": "Miami",
     "address": "1 Ransom Everglades School, Coconut Grove, Miami, FL 33133",
     "architecturalStyle": "Vernacular",
     "notableFeatures": "Historic schoolhouse, early 20th-century architecture",
@@ -628,7 +628,7 @@ export const buildings = [
   },
   {
     "buildingName": "Stiltsville",
-    "location": "Cape Florida",
+    "location": "Key Biscayne",
     "address": "Crandon Blvd, Key Biscayne, FL 33149",
     "architecturalStyle": "Shack on stilts",
     "notableFeatures": "Wooden stilt homes built on reinforced concrete pilings",
