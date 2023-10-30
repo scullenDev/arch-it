@@ -49,9 +49,7 @@ citySelect.addEventListener("change", function ({ target }) {
 });
 
 
-
 initMap();
-
 displayBuildings(buildings);
 
 

@@ -27,7 +27,7 @@ export const resetMap = () => {
 export const generateMarkers = (buildings) => {
   if (mapMarkers.length) removeMarkers();
 
-  for (let { lat, lng, buildingName, address, images, wikiUrl } of buildings) {
+  buildings.forEach(({ lat, lng, buildingName, address, images, wikiUrl }, i) => {
     images = images
       ? images.split(",")
       : [];
@@ -48,6 +48,7 @@ export const generateMarkers = (buildings) => {
     const marker = new google.maps.Marker({
       position: { lat, lng },
       map: map,
+      label: (i + 1).toString()
     });
 
     mapMarkers.push(marker);
@@ -61,7 +62,11 @@ export const generateMarkers = (buildings) => {
         map,
       });
     });
-  }
+  });
+
+  // for (let { lat, lng, buildingName, address, images, wikiUrl } of buildings) {
+
+  // }
 }
 
 const removeMarkers = () => {

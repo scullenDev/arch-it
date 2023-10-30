@@ -53,11 +53,10 @@ select {
 }
 
 #buildings {
-  padding-left: 0;
+  padding-left: 25px;
 }
 
 #buildings li {
-  list-style: none;
   border-bottom: 1px dashed #b3b3b3;
   padding-left: .5rem;
 }
