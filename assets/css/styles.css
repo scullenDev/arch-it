@@ -46,6 +46,8 @@ a:hover {
 }
 
 select {
+  margin-bottom: .75rem;
+  margin-left: .5rem;
   padding: .25rem;
 }
 

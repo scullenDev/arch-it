@@ -1,4 +1,4 @@
-import { initMap, map } from "./mapUtils.js";
+import { initMap, map, resetMap, generateMarkers } from "./mapUtils.js";
 import { displayBuildings, filterBuildings, geocodeLocations } from "./utils.js";
 import { buildings } from "./buildings.js";
 
@@ -29,17 +29,26 @@ const populateCitySelect = (cities) => {
   citySelect.innerHTML = html;
 }
 
+const resetMapAndBuildingsResults = () => {
+  displayBuildings(buildings);
+  generateMarkers(buildings);
+  resetMap();
+}
+
 // # updates map center and zooms in on city filter
 citySelect.addEventListener("change", function ({ target }) {
   // # if no city name is select, display all buildings
-  if (!target.value) return displayBuildings(buildings);
+  if (!target.value) return resetMapAndBuildingsResults();
 
   const { lat, lng } = target.querySelector(':checked').dataset;
   const filteredBuildings = filterBuildings(buildings, target.value);
   displayBuildings(filteredBuildings);
+  generateMarkers(filteredBuildings);
   map.setCenter({ lat: +lat, lng: +lng });
   map.setZoom(11);
 });
+
+
 
 initMap();
 
