@@ -1,19 +1,10 @@
 import { initMap, map, resetMap, generateMarkers } from "./mapUtils.js";
 import { displayBuildings, filterBuildings, geocodeLocations } from "./utils.js";
 import { buildings } from "./buildings.js";
+import { cities } from "./cities.js";
 
 // # globals
 const citySelect = document.getElementById("cities");
-
-// # generating list of unique cities
-const cities = buildings.reduce((accum, { location: city }) => [...accum, city], []);
-const uniqueCities = [...new Set(cities)].sort();
-const uniqueCityObjects = uniqueCities.map(city => ({ city }));
-
-// # ...then geocoding them
-geocodeLocations(uniqueCityObjects, "city")
-  .then(cities => populateCitySelect(cities))
-  .catch(err => console.log(err));
 
 // # populates city dropdown with list of unique cities
 const populateCitySelect = (cities) => {
@@ -51,6 +42,7 @@ citySelect.addEventListener("change", function ({ target }) {
 
 initMap();
 displayBuildings(buildings);
+populateCitySelect(cities);
 
 
 
