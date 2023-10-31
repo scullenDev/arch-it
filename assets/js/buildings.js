@@ -771,3 +771,8 @@ export const buildings = [
   }
 ];
 
+// ! I've commented this code out, as the buildings list is presently stable and it is therefore unnecessary to regeocode it with every render; this will also save on the MapQuest API request allotment 
+// // # geocoding buildings data; this will be useful if additional cities are added, removed, edited, etc; if so, replace the array of objects above with the logged out buildings array
+// geocodeLocations(buildings, "address")
+//   .then(buildings => console.log(buildings))
+//   .catch(err => console.log(err));

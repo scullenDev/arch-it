@@ -1,5 +1,5 @@
 import { initMap, map, resetMap, generateMarkers } from "./mapUtils.js";
-import { displayBuildings, filterBuildings, geocodeLocations } from "./utils.js";
+import { displayBuildings, filterBuildings } from "./utils.js";
 import { buildings } from "./buildings.js";
 import { cities } from "./cities.js";
 
@@ -38,7 +38,6 @@ citySelect.addEventListener("change", function ({ target }) {
   map.setCenter({ lat: +lat, lng: +lng });
   map.setZoom(11);
 });
-
 
 initMap();
 displayBuildings(buildings);

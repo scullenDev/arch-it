@@ -1,16 +1,5 @@
 import { geocodeLocations } from "./utils.js";
 
-// ! I've commented this code out, as the city list is presently stable and it is therefore unnecessary to regenerate it and regeocode it with every render; this will also save on the MapQuest API request allotment 
-// // # generating list of unique cities
-// const cities = buildings.reduce((accum, { location: city }) => [...accum, city], []);
-// const uniqueCities = [...new Set(cities)].sort();
-// const uniqueCityObjects = uniqueCities.map(city => ({ city }));
-
-// // # ...then geocoding them
-// geocodeLocations(uniqueCityObjects, "city")
-//   .then(cities => console.log(cities))
-//   .catch(err => console.log(err));
-
 // # city data
 export const cities = [
   {
@@ -179,3 +168,14 @@ export const cities = [
     "lng": -81.35069
   }
 ];
+
+// ! I've commented this code out, as the city list is presently stable and it is therefore unnecessary to regenerate it/regeocode it with every render; this will also save on the MapQuest API request allotment 
+// // # generating list of unique cities
+// const cities = buildings.reduce((accum, { location: city }) => [...accum, city], []);
+// const uniqueCities = [...new Set(cities)].sort();
+// const uniqueCityObjects = uniqueCities.map(city => ({ city }));
+
+// // # ...then geocoding them
+// geocodeLocations(uniqueCityObjects, "city")
+//   .then(cities => console.log(cities))
+//   .catch(err => console.log(err));

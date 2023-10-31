@@ -63,16 +63,11 @@ export const generateMarkers = (buildings) => {
       });
     });
   });
-
-  // for (let { lat, lng, buildingName, address, images, wikiUrl } of buildings) {
-
-  // }
 }
 
 const removeMarkers = () => {
   for (const marker of mapMarkers) {
     marker.setMap(null);
-    // marker = null;
   }
 
   mapMarkers.length = 0;
